@@ -1,0 +1,28 @@
+.items-list {
+    width: 100%;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.items-list {
+    display: none;
+}
+
+.items-list.active {
+    display: block;
+}
+
+.items-list .cart_item {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.cart_item_image div {
+    width: 100px;
+    height: 100px;
+}
+
+.skeleton {
+    width: 50px !important;
+    height: 50px !important;
+}
